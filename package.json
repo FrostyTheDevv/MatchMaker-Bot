@@ -1,0 +1,35 @@
+{
+  "name": "matchmaker-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot for random 1-on-1 matchmaking with moderated profiles and ticket-based chat threads.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.3",
+    "better-sqlite3": "^8.0.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "matchmaking",
+    "sqlite",
+    "discord.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YourUsername/matchmaker-bot.git"
+  },
+  "author": "YourNameHere",
+  "license": "MIT"
+}
